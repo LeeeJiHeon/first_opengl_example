@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.13)
 
 set(PROJECT_NAME first_opengl_example)
 set(CMAKE_CXX_STANDARD 17)
-
-set(WINDOW_NAME "First OPenGL Example")
+	
+set(WINDOW_NAME "Fisrst OpenGL Example")
 set(WINDOW_WIDTH 960)
 set(WINDOW_HEIGHT 540)
-
+ 
 project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME} src/main.cpp)
 
